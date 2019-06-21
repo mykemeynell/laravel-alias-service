@@ -1,0 +1,14 @@
+{
+    "name": "mykemeynell/laravel-alias-service",
+    "description": "Alias services in a Service Provider with aliases property",
+    "keywords": ["laravel", "providers", "aliases"],
+    "type": "library",
+    "require-dev": {
+        "laravel/framework": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "mykemeynell\\Support\\Providers\\Concern\\": "src/"
+        }
+    }
+}
